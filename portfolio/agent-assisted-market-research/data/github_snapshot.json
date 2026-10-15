@@ -1,0 +1,17 @@
+{
+  "source": "GitHub REST official repository metadata read via connected GitHub app",
+  "captured_at": "2026-10-15",
+  "limitations": "Snapshot for reproducible demo; stars change over time. Product descriptions and buyer hypotheses are not customer evidence.",
+  "repositories": [
+    {"full_name":"browser-use/browser-use","html_url":"https://github.com/browser-use/browser-use","description":"Open-source Python library for AI browser agents, plus Browser Use Cloud: stealth browsers and a hosted agent API.","stargazers_count":118025,"forks_count":13083,"language":"Python"},
+    {"full_name":"firecrawl/firecrawl","html_url":"https://github.com/firecrawl/firecrawl","description":"Supercharge your AI agents with data from the web and beyond.","stargazers_count":191684,"forks_count":10136,"language":"TypeScript"},
+    {"full_name":"langchain-ai/langgraph","html_url":"https://github.com/langchain-ai/langgraph","description":"Build resilient agents.","stargazers_count":43300,"forks_count":7364,"language":"Python"},
+    {"full_name":"n8n-io/n8n","html_url":"https://github.com/n8n-io/n8n","description":"Fair-code workflow automation platform with native AI capabilities.","stargazers_count":207430,"forks_count":61127,"language":"TypeScript"},
+    {"full_name":"anthropics/skills","html_url":"https://github.com/anthropics/skills","description":"Public repository for Agent Skills","stargazers_count":181250,"forks_count":21455,"language":"Python"},
+    {"full_name":"microsoft/playwright-cli","html_url":"https://github.com/microsoft/playwright-cli","description":"CLI for common Playwright actions.","stargazers_count":14197,"forks_count":797,"language":"TypeScript"},
+    {"full_name":"modelcontextprotocol/servers","html_url":"https://github.com/modelcontextprotocol/servers","description":"Model Context Protocol Servers","stargazers_count":91277,"forks_count":11789,"language":"TypeScript"},
+    {"full_name":"crewAIInc/crewAI","html_url":"https://github.com/crewAIInc/crewAI","description":"Framework for orchestrating role-playing autonomous AI agents.","stargazers_count":59719,"forks_count":8729,"language":"Python"},
+    {"full_name":"microsoft/playwright-mcp","html_url":"https://github.com/microsoft/playwright-mcp","description":"Playwright MCP server","stargazers_count":38166,"forks_count":3250,"language":"TypeScript"},
+    {"full_name":"pydantic/pydantic-ai","html_url":"https://github.com/pydantic/pydantic-ai","description":"AI SDK with typed agents and integrations.","stargazers_count":20625,"forks_count":2919,"language":"Python"}
+  ]
+}
