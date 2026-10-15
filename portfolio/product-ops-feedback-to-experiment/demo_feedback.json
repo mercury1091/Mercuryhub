@@ -1,0 +1,11 @@
+{
+  "dataset_note": "Entirely fictional synthetic user feedback for an interview demo; no customer or employer data.",
+  "feedback": [
+    {"id":"F-001","persona":"solo_developer","stage":"activation","comment":"I installed the CLI but could not find what successful first run should produce.","severity":4,"occurrences":6},
+    {"id":"F-002","persona":"solo_developer","stage":"activation","comment":"The sample workflow failed and I could not tell which step should be retried.","severity":5,"occurrences":5},
+    {"id":"F-003","persona":"small_team","stage":"retention","comment":"I need to see which steps require a person to review before the agent sends anything.","severity":5,"occurrences":4},
+    {"id":"F-004","persona":"ops_lead","stage":"value","comment":"I already use scripts and need proof this tool saves supervision time.","severity":4,"occurrences":3},
+    {"id":"F-005","persona":"small_team","stage":"retention","comment":"The run history is difficult to explain to a teammate who was absent.","severity":3,"occurrences":4},
+    {"id":"F-006","persona":"solo_developer","stage":"activation","comment":"I want a ready-made first task template instead of starting from a blank prompt.","severity":3,"occurrences":7}
+  ]
+}
