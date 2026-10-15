@@ -1,0 +1,165 @@
+{
+  "report_status": "DRAFT — requires human review",
+  "data_type": "public open-source repository metadata + analyst hypotheses",
+  "evidence_scope": "GitHub repo metadata; no validated customer interviews or pricing data",
+  "sources": 10,
+  "categories": {
+    "agent orchestration": 1,
+    "agent skills": 1,
+    "agent tools and access": 1,
+    "browser agent": 2,
+    "browser quality assurance": 1,
+    "multi-agent orchestration": 1,
+    "typed agent framework": 1,
+    "web research": 1,
+    "workflow automation": 1
+  },
+  "records": [
+    {
+      "repo": "browser-use/browser-use",
+      "source_url": "https://github.com/browser-use/browser-use",
+      "observed_at": "2026-10-15",
+      "stars_snapshot": 118025,
+      "forks_snapshot": 13083,
+      "attention_band": "100k+",
+      "category": "browser agent",
+      "possible_buyer_HYPOTHESIS": "Teams doing recurring public-web research",
+      "pain_HYPOTHESIS": "Brittle browser tasks and manual retries consume operator time",
+      "validation_question": "Can a real test reduce supervision minutes per validated output?"
+    },
+    {
+      "repo": "firecrawl/firecrawl",
+      "source_url": "https://github.com/firecrawl/firecrawl",
+      "observed_at": "2026-10-15",
+      "stars_snapshot": 191684,
+      "forks_snapshot": 10136,
+      "attention_band": "100k+",
+      "category": "web research",
+      "possible_buyer_HYPOTHESIS": "Teams gathering public web content for agent research",
+      "pain_HYPOTHESIS": "Extraction reliability and citations are hard to preserve",
+      "validation_question": "How often does sourced extraction miss or misstate a page?"
+    },
+    {
+      "repo": "langchain-ai/langgraph",
+      "source_url": "https://github.com/langchain-ai/langgraph",
+      "observed_at": "2026-10-15",
+      "stars_snapshot": 43300,
+      "forks_snapshot": 7364,
+      "attention_band": "30k–99k",
+      "category": "agent orchestration",
+      "possible_buyer_HYPOTHESIS": "Developer teams shipping stateful workflows",
+      "pain_HYPOTHESIS": "Recoverability and human oversight are expensive to build",
+      "validation_question": "Would the team buy a higher-level interface over their current framework?"
+    },
+    {
+      "repo": "n8n-io/n8n",
+      "source_url": "https://github.com/n8n-io/n8n",
+      "observed_at": "2026-10-15",
+      "stars_snapshot": 207430,
+      "forks_snapshot": 61127,
+      "attention_band": "100k+",
+      "category": "workflow automation",
+      "possible_buyer_HYPOTHESIS": "Operators connecting many business tools",
+      "pain_HYPOTHESIS": "Cross-tool state and error handling become hard to manage",
+      "validation_question": "When does an operator choose code-first agents versus visual workflows?"
+    },
+    {
+      "repo": "anthropics/skills",
+      "source_url": "https://github.com/anthropics/skills",
+      "observed_at": "2026-10-15",
+      "stars_snapshot": 181250,
+      "forks_snapshot": 21455,
+      "attention_band": "100k+",
+      "category": "agent skills",
+      "possible_buyer_HYPOTHESIS": "AI tool power users standardizing repeatable tasks",
+      "pain_HYPOTHESIS": "Instructions and reference knowledge are hard to reuse consistently",
+      "validation_question": "Will teams adopt structured skills with versioned quality checks?"
+    },
+    {
+      "repo": "microsoft/playwright-cli",
+      "source_url": "https://github.com/microsoft/playwright-cli",
+      "observed_at": "2026-10-15",
+      "stars_snapshot": 14197,
+      "forks_snapshot": 797,
+      "attention_band": "under 30k",
+      "category": "browser quality assurance",
+      "possible_buyer_HYPOTHESIS": "Developers and product ops validating product sites",
+      "pain_HYPOTHESIS": "Reproducible UI checks can be difficult to automate",
+      "validation_question": "Which test artifacts reduce QA review time without masking failures?"
+    },
+    {
+      "repo": "modelcontextprotocol/servers",
+      "source_url": "https://github.com/modelcontextprotocol/servers",
+      "observed_at": "2026-10-15",
+      "stars_snapshot": 91277,
+      "forks_snapshot": 11789,
+      "attention_band": "30k–99k",
+      "category": "agent tools and access",
+      "possible_buyer_HYPOTHESIS": "Teams connecting agent tools to external data",
+      "pain_HYPOTHESIS": "Safe and traceable tool access requires careful permission design",
+      "validation_question": "What permissions and logs are essential before live deployment?"
+    },
+    {
+      "repo": "crewAIInc/crewAI",
+      "source_url": "https://github.com/crewAIInc/crewAI",
+      "observed_at": "2026-10-15",
+      "stars_snapshot": 59719,
+      "forks_snapshot": 8729,
+      "attention_band": "30k–99k",
+      "category": "multi-agent orchestration",
+      "possible_buyer_HYPOTHESIS": "Teams exploring multiple specialized agent roles",
+      "pain_HYPOTHESIS": "Delegation and evaluation are hard to reproduce",
+      "validation_question": "When are multiple agents worth the additional cost and monitoring?"
+    },
+    {
+      "repo": "microsoft/playwright-mcp",
+      "source_url": "https://github.com/microsoft/playwright-mcp",
+      "observed_at": "2026-10-15",
+      "stars_snapshot": 38166,
+      "forks_snapshot": 3250,
+      "attention_band": "30k–99k",
+      "category": "browser agent",
+      "possible_buyer_HYPOTHESIS": "Operators connecting agents to web applications",
+      "pain_HYPOTHESIS": "Tool schema and UI state can make agent reliability fragile",
+      "validation_question": "Does CLI or MCP produce a cheaper reliable action loop?"
+    },
+    {
+      "repo": "pydantic/pydantic-ai",
+      "source_url": "https://github.com/pydantic/pydantic-ai",
+      "observed_at": "2026-10-15",
+      "stars_snapshot": 20625,
+      "forks_snapshot": 2919,
+      "attention_band": "under 30k",
+      "category": "typed agent framework",
+      "possible_buyer_HYPOTHESIS": "Python developer teams building maintainable agents",
+      "pain_HYPOTHESIS": "Unstructured agent outputs create downstream validation work",
+      "validation_question": "How much do typed outputs reduce QA errors?"
+    }
+  ],
+  "next_experiment": {
+    "hypothesis": "A guided first-task template with transparent retry/status information might improve time-to-first-success for high-frequency agent users.",
+    "population": "Users who already work with CLI AI agents (recruit consented test participants)",
+    "primary_metric": "Verified first-task completion within 24 hours (requires real analytics)",
+    "secondary_metrics": [
+      "time-to-first-success",
+      "manual oversight minutes per accepted run",
+      "retry count"
+    ],
+    "safety_metric": "incorrect or unapproved external actions (target zero)",
+    "baseline": null,
+    "threshold": null,
+    "status": "PROPOSED ONLY — not executed"
+  },
+  "approval_gate": {
+    "status": "PENDING",
+    "publishing_allowed": false,
+    "messaging_allowed": false,
+    "required": [
+      "Verify high-priority claims from primary sources",
+      "Separate analyst hypotheses from factual product claims",
+      "Obtain permission for real user research",
+      "Agree experiment owner, baseline, cost cap and success threshold",
+      "Approve any publication or external action explicitly"
+    ]
+  }
+}
