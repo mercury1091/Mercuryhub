@@ -41,3 +41,32 @@ Private research list for Mercury Qing — prepared 2026-10-15.
 [Feedback-to-Experiment](./product-ops-feedback-to-experiment/README.md) — **synthetic, Python rule-based and offline; no real LLM Agent integration**.
 
 Do not present a Star, fork, research note, prototype README or AI-generated draft as proof of a shipped production AI system.
+
+
+## Verified GitHub popularity scan — 2026-10-15
+
+The source repository information below was checked from GitHub metadata today. Counts are time-specific and approximate indicators of **developer attention, not proof Mercury has tried the tools, nor proof of product revenue**. These are curated references in a private index; no GitHub Star or Fork action was performed.
+
+| Project | Stars (2026-10-15) | What to explore next | Status |
+|---|---:|---|---|
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) | 207,430 | visual workflow vs agent-driven orchestration; retries and operator audit | Studied public docs; no local installation claim |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 191,684 | public website extraction, source provenance, respect AGPL-3.0 | Studied public docs; no local installation claim |
+| [anthropics/skills](https://github.com/anthropics/skills) | 181,250 | SKILL.md packaging, reusable instructions + tests; check licenses per component | Studied public docs; no local installation claim |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 118,025 | browser research automation with safe read-only tests | Studied public docs; no local installation claim |
+| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | 91,277 | MCP tool interfaces and permission boundaries | Studied public docs; no local installation claim |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 59,719 | delegation among analyst, reviewer and editor roles | Studied public docs; no local installation claim |
+| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | 43,300 | long-lived agent state, resumability, approval gates | Studied public docs; no local installation claim |
+| [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | 38,166 | accessibility-tree-based browser tool for agent QA | Studied public docs; no local installation claim |
+| [ComposioHQ/composio](https://github.com/ComposioHQ/composio) | 30,558 | tool access, OAuth, granular scopes and tool execution | Studied public docs; no local installation claim |
+| [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | 30,285 | long-running agent harness with files and task decomposition | Studied public docs; no local installation claim |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 20,625 | typed and validated AI output and evidence contracts | Studied public docs; no local installation claim |
+| [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) | 14,197 | reproducible browser checks on user's own site | Studied public docs; no local installation claim |
+| [openai/plugins](https://github.com/openai/plugins) | 7,448 | current OpenAI plugin/skills architecture reference | Studied public docs; no local installation claim |
+
+### Our actual created work (distinguish from upstream)
+
+[Agent-Assisted Market Research](./agent-assisted-market-research/README.md): source-linked local Python research workflow; read-only GitHub source snapshots; QA checks; experiment proposal; human approval gate; optional source-bounded LLM reviewer. Implemented with AI assistance, validated through **11 local unit tests**. No true browser agent used, no paid customers studied, no direct use of the reference projects claimed.
+
+### To actually Star or Fork on GitHub
+
+Use each upstream repository link above, click **Star** only for projects you genuinely want to follow. If you Fork code, preserve the upstream attribution and license. A Star/Fork is a bookmark or copy, **not evidence of personal hands-on usage**. Genuine use can be documented with commands, anonymized input/output, test logs, fixes, your commits and a reproducible case study.
