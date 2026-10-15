@@ -1,0 +1,13 @@
+{
+  "synthetic": true,
+  "input": "demo_feedback.json",
+  "records": 6,
+  "validated": 6,
+  "top_ids": [
+    "F-002",
+    "F-001",
+    "F-006"
+  ],
+  "external_actions": 0,
+  "human_approval_required": true
+}
